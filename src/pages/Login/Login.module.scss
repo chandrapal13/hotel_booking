@@ -1,0 +1,99 @@
+.adminLoginWrapper {
+    max-width: 448px;
+    padding: 0 15px;
+    margin: auto;
+    font-family: "Noto Sans KR", sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+        text-align: center;
+        line-height: 32px;
+    }
+
+    .subHeading {
+        text-align: center;
+        color: #7c7a82;
+        font-size: 16px;
+        line-height: 18px;
+        margin: 15px 0 40px;
+    }
+
+    .inputBox {
+        display: block;
+        min-height: 48px;
+        border-radius: 10px;
+        padding: 0px 16px;
+        box-sizing: border-box;
+        border: 1px solid #a7a6ab;
+        color: #504d58;
+        width: 100%;
+        margin: 0;
+        font-size: 16px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .positionRelative {
+        position: relative;
+    }
+
+    .eyeIcon {
+        position: absolute;
+        top: 0;
+        right: 0;
+        // transform: translateY(-50%);
+    }
+
+    input:-internal-autofill-selected {
+        background-color: unset !important;
+    }
+
+    .solidSecondaryBtn {
+        background: #7681e5;
+        color: #ffffff;
+        border: solid 1px transparent;
+        height: 45px;
+        border-radius: 15px;
+        font-size: 20px;
+        font-weight: 700;
+        padding: 10px 40px;
+        cursor: pointer;
+        letter-spacing: 0.5px;
+        border-radius: 10px;
+        box-shadow: 0px 3px 4px rgb(104 154 170 / 30%);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 300px;
+        margin: 40px auto 20px;
+        display: block;
+    }
+
+    .errorMsg {
+        color: red;
+        text-align: left;
+    }
+
+    .link {
+        cursor: pointer;
+        font-size: 14px;
+    }
+
+    label {
+        color: #000000;
+    }
+
+    .forgot0 {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .remember0 {
+        display: flex;
+        align-items: center;
+    }
+}
