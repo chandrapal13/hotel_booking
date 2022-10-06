@@ -54,9 +54,9 @@ console.log(email,password);
   }
   return (
     <div>
-      <div className={styles.containerImg}>
+      {/* <div className={styles.containerImg}>
         <img src='assests/images/hotel-tropical-summer-landscape-tree.jpg' />
-      </div>
+      </div> */}
       <div className={styles.adminLoginWrapper}>
         <h1>Login Page</h1>
         <form onSubmit={handleSubmit(onSubmit)}>
