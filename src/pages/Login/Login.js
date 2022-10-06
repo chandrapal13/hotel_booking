@@ -55,7 +55,7 @@ console.log(email,password);
   return (
     <div>
       <div className={styles.containerImg}>
-        <img src='../../assests/images/hotel-tropical-summer-landscape-tree.jpg' />
+        <img src='assests/images/hotel-tropical-summer-landscape-tree.jpg' />
       </div>
       <div className={styles.adminLoginWrapper}>
         <h1>Login Page</h1>
@@ -67,7 +67,7 @@ console.log(email,password);
             placeholder="Enter your email"
             className={styles.inputBox}
             {...register("email", {
-              required: "email field is required.",
+              required: "Email field is required",
               pattern: {
                 value: /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/,
                 message: `Please enter valid Email.`,

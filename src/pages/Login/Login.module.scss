@@ -4,6 +4,8 @@
     margin: auto;
     font-family: "Noto Sans KR", sans-serif;
     height: 100vh;
+    max-height: 500px;
+    min-height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
